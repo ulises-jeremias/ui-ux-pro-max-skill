@@ -42,7 +42,7 @@ By default, `uipro init` tries to download the latest release from GitHub to ens
 
 Use `--offline` to skip the GitHub download and use bundled assets directly.
 
-For GitHub Copilot, the generated install now uses the same skill format as Claude and writes the skill to `.github/skills/ui-ux-pro-max/SKILL.md`. Copilot also supports Claude-compatible skill fallbacks in `.claude/skills/` for project installs and `~/.copilot/skills/` or `~/.claude/skills/` for personal installs.
+For GitHub Copilot, the generated install now uses the same skill format as Claude and writes the skill to `.github/skills/ui-ux-pro-max/SKILL.md`. Copilot can also read Claude-compatible project skills from `.claude/skills/`. Outside this installer, Copilot also supports personal skills in `~/.copilot/skills/` or `~/.claude/skills/`.
 
 ## Development
 

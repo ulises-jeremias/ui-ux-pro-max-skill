@@ -328,7 +328,7 @@ The skill activates automatically when you request UI/UX work. Just chat natural
 Build a landing page for my SaaS product
 ```
 
-> **GitHub Copilot**: Copilot now uses the same skill format as Claude. Project skills can live in `.github/skills/` or `.claude/skills/`. Personal skills can live in `~/.copilot/skills/` or `~/.claude/skills/`.
+> **GitHub Copilot**: Copilot now uses the same skill format as Claude. This installer writes the project skill to `.github/skills/`, and Copilot can also read compatible project skills from `.claude/skills/`. Outside this installer, Copilot also supports personal skills in `~/.copilot/skills/` or `~/.claude/skills/`.
 
 > **Trae**: Switch to **SOLO** mode first. The skill will activate for UI/UX requests.
 
