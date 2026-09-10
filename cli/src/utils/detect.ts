@@ -78,7 +78,7 @@ export function getAITypeDescription(aiType: AIType): string {
     case 'antigravity':
       return 'Antigravity (.agent/skills/)';
     case 'copilot':
-      return 'GitHub Copilot (.github/prompts/)';
+      return 'GitHub Copilot (.github/skills/ or .claude/skills/)';
     case 'kiro':
       return 'Kiro (.kiro/steering/)';
     case 'codex':

@@ -49,7 +49,7 @@ export const AI_FOLDERS: Record<Exclude<AIType, 'all'>, string[]> = {
   cursor: ['.cursor', '.shared'],
   windsurf: ['.windsurf', '.shared'],
   antigravity: ['.agent', '.shared'],
-  copilot: ['.github', '.shared'],
+  copilot: ['.github', '.claude', '.shared'],
   kiro: ['.kiro', '.shared'],
   codex: ['.codex'],
   roocode: ['.roo', '.shared'],
